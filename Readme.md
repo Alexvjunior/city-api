@@ -35,3 +35,4 @@ docker start city-api-postgres 2>/dev/null || docker run --name city-api-postgre
 
 pytest -vv -x --cov=apps
 ```
+
